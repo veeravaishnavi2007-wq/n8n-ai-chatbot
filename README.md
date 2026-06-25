@@ -29,6 +29,64 @@ The workflow connects user input with an AI Agent and LLM model to provide autom
 - Webhooks
 - Large Language Model (LLM)
 
+---## ⚙️ Workflow
+User Input
+|
+↓
+Webhook Trigger
+|
+↓
+AI Agent
+|
+↓
+Gemini AI Model
+|
+↓
+Response Output
+## 📂 Project Files
+
+
+n8n-ai-chatbot
+│
+├── chatbot-workflow.json
+│
+└── README.md
+
+
 ---
 
-## ⚙️ Workflow
+## 🔧 How to Use
+
+1. Install or open n8n
+2. Import the `chatbot-workflow.json` file
+3. Add your own API key
+4. Configure credentials
+5. Activate the workflow
+6. Start chatting with the AI bot
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- Building AI workflows
+- Connecting APIs with n8n
+- Using AI Agents
+- Automating tasks using no-code tools
+- Integrating LLM models into applications
+
+---
+
+## 👩‍💻 Author
+
+**Vaishnavi Veeramani**
+
+---
+
+## ⭐ Future Improvements
+
+- Add voice support
+- Add database memory
+- Improve chatbot responses
+- Deploy as a web application
